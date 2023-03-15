@@ -8,8 +8,8 @@ const Profile = () => (
   <Container>
     <Header>
       <Avatar src="https://avatars.githubusercontent.com/u/8689325?v=4" />
-      <Login>devsamurai</Login>
-      <Name>Dev Samurai</Name>
+      <Login>arthurarw</Login>
+      <Name>Arthur Warmling</Name>
     </Header>
     <Inner>
       <Data>
@@ -17,10 +17,10 @@ const Profile = () => (
         30&nbsp;<i>seguidores</i>&nbsp;&middot;&nbsp;10&nbsp;<i>seguindo</i>
       </Data>
       <Data>
-        <MdWork size={20} /> Dev Samurai
+        <MdWork size={20} /> Eduzz
       </Data>
       <Data>
-        <MdLocationCity size={20} /> São José dos Campos
+        <MdLocationCity size={20} /> Turvo - SC
       </Data>
       <Data>
         <MdLink size={20} />

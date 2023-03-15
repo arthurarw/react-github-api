@@ -1,6 +1,7 @@
 import React from 'react';
 import Filter from './Filter';
 import Profile from './Profile';
+import Repositories from './Repositories';
 import { Container, Main, Sidebar } from './styles';
 
 const RepositoriesPage = () => (
@@ -9,7 +10,9 @@ const RepositoriesPage = () => (
       <Profile />
       <Filter />
     </Sidebar>
-    <Main>Main</Main>
+    <Main>
+      <Repositories />
+    </Main>
   </Container>
 );
 
